@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -147,4 +151,45 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+/* CSS da página inicial */
+
+.banner {
+	width:  100%;
+}
+
+.titulo-secao {
+	text-align:  center;
+	/* 2em: o dobro do tamanho base */
+	font-size: 2em;
+	/* margem abaixo do título proporcional ao tamanho da fonte */
+	margin:  0 0 1em;
+	/* limpa o float à esquerda que vinha da seção anterior */
+	clear: left;
+}
+
+.principal p {
+	/* parágrafo da seção principal */
+	margin:  0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width:  120px;
+	float:  left;
+	/*cima dir baixo esq*/
+	margin:  0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width:  60%;
+	
 }
