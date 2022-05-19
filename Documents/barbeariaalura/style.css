@@ -255,6 +255,15 @@ td, th {
 
 .imagem-beneficios {
 	width:  60%;
+	/* opacidade da imagem, 1 = aparece totalmente */
+	opacity: 1;
+	/* tempo de transição entre as diferentes opacidades */
+	transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+	/* quando o mouse estiver sobre a imagem, altera a opacidade */
+	opacity: 0.3;
 }
 
 .video {
